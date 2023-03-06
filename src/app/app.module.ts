@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
 //import { LoginFormComponent } from './core/components/shared/login-form/login-form.component';
 import { IndexComponent } from './feature/public/index/index.component';
 
-import { AdminModule } from './feature/admin/admin.module';
+//import { AdminModule } from './feature/admin/admin.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +20,7 @@ import { AdminModule } from './feature/admin/admin.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AdminModule
+    //AdminModule
   ],
   providers: [],
   bootstrap: [AppComponent]
