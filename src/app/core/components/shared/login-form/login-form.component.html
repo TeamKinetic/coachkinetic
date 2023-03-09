@@ -1,4 +1,29 @@
-<mat-card class="login-card">
-   <p>dghjklglg;h'jgjhkjl</p>
-   
-</mat-card>
+ 
+<div class="form-card-container">
+   <form  (ngSubmit)="submitForm()">
+    
+          <div class="form-container">
+            <label for="email">Email</label>
+              <input
+                type="text"
+                placeholder="Email"
+                formControlName="email"
+                required
+              />
+         
+            <label for="password">Password</label>
+              <input
+                type="password"
+                placeholder="Password"
+                formControlName="password"
+              />
+           
+            <button class="login-btn" 
+            type="submit">Login</button>
+
+            <p class="reset">Forget password? <span class="text-reset">Reset</span></p>
+
+          </div>
+
+    </form>
+   </div>
