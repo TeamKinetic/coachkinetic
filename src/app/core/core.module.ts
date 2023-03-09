@@ -8,6 +8,8 @@ import { ResetComponent } from './components/login/reset/reset.component';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { LoginFormComponent } from './components/shared/login-form/login-form.component';
 
+import { AngularMaterialModule } from '../shared/angular-material.module';
+
 @NgModule({
   declarations: [
     LoginAdminComponent,
@@ -19,7 +21,8 @@ import { LoginFormComponent } from './components/shared/login-form/login-form.co
     LoginFormComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    AngularMaterialModule
   ]
 })
 export class CoreModule { }

@@ -1,0 +1,10 @@
+.login-container{
+    background-color: rgb(29, 53, 87);
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-login{
+    color:white;
+}

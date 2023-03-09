@@ -2,3 +2,6 @@
 
 /* @import 'assets/css/card-style.css';
 @import 'assets/css/grid-style.css'; */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
