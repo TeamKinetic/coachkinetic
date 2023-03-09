@@ -9,6 +9,8 @@ import { HeaderComponent } from './components/shared/header/header.component';
 import { LoginFormComponent } from './components/shared/login-form/login-form.component';
 
 import { AngularMaterialModule } from '../shared/angular-material.module';
+import { RouterModule} from '@angular/router';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { AngularMaterialModule } from '../shared/angular-material.module';
   ],
   imports: [
     CommonModule,
-    AngularMaterialModule
+    AngularMaterialModule,
+    RouterModule,
   ]
 })
 export class CoreModule { }
