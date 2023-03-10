@@ -2,8 +2,8 @@
 
 @import 'assets/css/grid-style.css';
 @import 'assets/css/login-style.css';
-/* @import 'assets/css/card-style.css';
- */
+@import 'assets/css/card-style.css';
+ 
 
 html, body { height: 100%; 
 }
@@ -20,12 +20,61 @@ body { margin: 0;
      user-select:none;
     box-sizing:border-box;
   }
-
+  
+/******** button *******/
 .btn-blue{
     background-color: rgb(29, 53, 87);
     color:white;
 }
+
+.float-right{
+    float: right;
+}
+button .mt{
+    margin-top:10px;
+}
+
+
+/******** text *******/
+
+.text-page{
+    font-size: 17px;
+    font-weight: 450;
+    color:rgb(69, 123, 157);
+    margin-left:40px;
+}
+
 .text-head{
     font-size:17px;
-    font-weight: 400;
+    font-weight: 450;
+}
+
+/******** layout *******/
+
+ .container{
+    margin:20px;
+}
+
+/******** FLEX *******/
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-item{
+    flex:1;
+    padding: 10px;
+}
+
+@media (max-width: 1000px){
+    .flex-container {
+        flex-direction:column;
+    }
+    .flex-item:not(:last-child){
+        margin-right:0px;
+    }
+    
+    .flex-item{
+        margin-bottom:20px;
+    }
 }

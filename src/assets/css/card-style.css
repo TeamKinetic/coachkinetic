@@ -1,0 +1,51 @@
+
+.card-title {
+    padding: 10px;
+    text-align:start;
+    border-bottom: 1px solid #dbdbdb;
+    font-weight: 450;
+    margin: 0;
+}
+.card {
+    background-color: #fff;
+    margin-bottom: 40px;
+    padding:20px 25px 30px 25px;
+    border-radius: 5px;;
+
+}
+
+.card-content {
+    padding: 20px 5px 5px;
+}
+
+
+/******** form *******/
+
+
+label {
+    display: block;
+}
+
+form select, select, input {
+    height: 36px;
+}
+form select, select {
+    padding: 4px 5px;
+}
+form select, select, input, textarea {
+    font-size: 1.1rem;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    vertical-align: middle;
+    width:100%;
+
+}
+form textarea, textarea, form input, input {
+    font-family: inherit;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    vertical-align: middle;
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+    color: #303030;
+}

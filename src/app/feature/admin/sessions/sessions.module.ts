@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { SessionsRoutingModule } from './sessions-routing.module';
 import { AdminSharedModule } from '../shared/admin-shared.module';
+import { AngularMaterialModule } from 'src/app/shared/angular-material.module';
 
 import { SessionHomeComponent } from './session-home/session-home.component';
 import { CreateBookingComponent } from './create-booking/create-booking.component';
@@ -26,7 +27,8 @@ import { SearchSessionsComponent } from './search-sessions/search-sessions.compo
   imports: [
     CommonModule,
     SessionsRoutingModule,
-    AdminSharedModule
+    AdminSharedModule,
+    AngularMaterialModule
   ]
 })
 export class SessionsModule { }

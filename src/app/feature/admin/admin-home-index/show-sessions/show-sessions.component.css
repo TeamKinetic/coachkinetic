@@ -3,9 +3,7 @@
     justify-content:space-between;
     margin:10px;
 }
-.show-session{
-    background-color: rgb(241, 250, 238);
-}
+
 .session-period select{
     padding:7px;
     margin:4px;
