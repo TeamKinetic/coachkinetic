@@ -1,10 +1,12 @@
 .head-line{
-    display:flex;
-    justify-content:space-between;
-    margin:10px;
+   margin:10px;
 }
 
+.session-period {
+    display:flex;
+    justify-content:flex-end;
+}
 .session-period select{
-    padding:7px;
-    margin:4px;
+    width:200px;
+    margin-right:4px;
 }
