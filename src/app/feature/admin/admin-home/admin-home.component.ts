@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminHomeComponent implements OnInit {
 
+  collapsed: boolean = true;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  togglesideBar(){
+    this.collapsed = !this.collapsed;
   }
 
 }

@@ -1,5 +1,20 @@
-<app-top-nav></app-top-nav>
+<div id="grid-container">
 
-<app-side-nav></app-side-nav>
-
-<router-outlet></router-outlet>
+    <div id="navtop">
+      <app-top-nav></app-top-nav>
+    </div>
+    
+    <div id="sidenav" [ngClass]="{'activeCollapsed':collapsed}">
+        <app-side-nav></app-side-nav>
+    </div>
+    
+    <div id="content" [ngClass]="{'activeCollapsed':collapsed}">
+      <div>
+         <router-outlet></router-outlet>
+      </div>
+     </div>
+    
+  <button id="toggle-sidebar" 
+    (click)="togglesideBar()">
+    <mat-icon>menu</mat-icon>
+  </button> 
