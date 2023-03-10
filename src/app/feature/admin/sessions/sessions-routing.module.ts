@@ -13,10 +13,10 @@ const routes: Routes = [
   children: [
     {path:'create-booking', component: CreateBookingComponent},
     {path:'booking-calendar', component: BookingCalendarComponent},
-    {path:'check-off-sessions', component: CheckOffSessionsComponent},
     {path:'coach-schedule', component: CoachScheduleComponent},
+    {path:'check-off-sessions', component: CheckOffSessionsComponent},
+    {path:'search-sessions', component: SearchSessionsComponent},
     {path:'ending-bookings', component: EndingBookingsComponent},
-    {path:'search-sessions', component: SearchSessionsComponent}
  
   ]
 }

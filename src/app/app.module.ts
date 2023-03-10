@@ -4,10 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IndexComponent } from './feature/public/index/index.component';
-import { CoreModule } from './core/core.module';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-//import { AngularMaterialModule } from './shared/angular-material.module';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CoreModule } from './core/core.module';
+import { MainSharedModule } from './shared/main-shared.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +19,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppRoutingModule,
     CoreModule,
     BrowserAnimationsModule,
-    //AngularMaterialModule
+    MainSharedModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
