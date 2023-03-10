@@ -2,8 +2,8 @@
 
 @import 'assets/css/grid-style.css';
 @import 'assets/css/login-style.css';
-@import 'assets/css/card-style.css';
-
+/* @import 'assets/css/card-style.css';
+ */
 
 html, body { height: 100%; 
 }
