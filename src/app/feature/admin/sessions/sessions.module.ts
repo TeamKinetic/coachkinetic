@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { SessionsRoutingModule } from './sessions-routing.module';
+import { AdminSharedModule } from '../shared/admin-shared.module';
+
 import { SessionHomeComponent } from './session-home/session-home.component';
 import { CreateBookingComponent } from './create-booking/create-booking.component';
 import { BookingCalendarComponent } from './booking-calendar/booking-calendar.component';
@@ -23,7 +25,8 @@ import { SearchSessionsComponent } from './search-sessions/search-sessions.compo
   ],
   imports: [
     CommonModule,
-    SessionsRoutingModule
+    SessionsRoutingModule,
+    AdminSharedModule
   ]
 })
 export class SessionsModule { }
