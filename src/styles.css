@@ -21,3 +21,11 @@ body { margin: 0;
     box-sizing:border-box;
   }
 
+.btn-blue{
+    background-color: rgb(29, 53, 87);
+    color:white;
+}
+.text-head{
+    font-size:17px;
+    font-weight: 400;
+}
