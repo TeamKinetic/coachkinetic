@@ -11,12 +11,12 @@ import { ViewEditCustomersComponent } from './view-edit-customers/view-edit-cust
 const routes: Routes = [
   {path:'', component: CustomerHomeComponent,
   children: [
+    {path:'view-edit-customer', component: ViewEditCustomersComponent},
     {path:'add-customer', component: AddCustomerComponent},
+    {path:'summary-report', component: SummaryReportComponent},
     {path:'customer-invoicing',  component: CustomerInvoicingComponent},
     {path:'customer-proforma', component: CustomerProformaInvoicingComponent},
     {path:'outstanding-invoices', component: OutstandingInvoicesComponent},
-    {path:'summary-report', component: SummaryReportComponent},
-    {path:'view-edit-customer', component: ViewEditCustomersComponent}
   ]
 }
 ];
