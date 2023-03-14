@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { CalendarOptions } from '@fullcalendar/core'; // useful for typechecking
 import dayGridPlugin from '@fullcalendar/daygrid';
+import interactionPlugin from '@fullcalendar/interaction';
+
+
 
 
 @Component({
@@ -11,12 +14,13 @@ import dayGridPlugin from '@fullcalendar/daygrid';
 export class BookingCalendarComponent {
 
 calendarOptions: CalendarOptions = {
-   
+
+plugins: [dayGridPlugin, interactionPlugin],
+
 initialView: 'dayGridMonth',
 
-weekends: true, // initial value
+weekends: false, // initial value
 
-plugins: [dayGridPlugin],
     
 events: [
       { title: 'Meeting 1', start: new Date() },

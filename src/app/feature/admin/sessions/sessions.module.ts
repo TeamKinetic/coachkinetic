@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FullCalendarModule } from '@fullcalendar/angular';
+import { FullCalendarModule } from '@fullcalendar/angular'
 
+import { RouterModule } from '@angular/router';
 import { SessionsRoutingModule } from './sessions-routing.module';
 import { AdminSharedModule } from '../shared/admin-shared.module';
 import { AngularMaterialModule } from 'src/app/shared/angular-material.module';
@@ -15,6 +16,7 @@ import { EndingBookingsComponent } from './ending-bookings/ending-bookings.compo
 import { SearchSessionsComponent } from './search-sessions/search-sessions.component';
 import { IndividualSessionComponent } from './create-booking/individual-session/individual-session.component';
 import { RepeatingSessionComponent } from './create-booking/repeating-session/repeating-session.component';
+
 
 
 @NgModule({
@@ -32,7 +34,7 @@ import { RepeatingSessionComponent } from './create-booking/repeating-session/re
   imports: [
     CommonModule,
     FullCalendarModule, // register FullCalendar with your app
-
+    RouterModule,
     SessionsRoutingModule,
     AdminSharedModule,
     AngularMaterialModule
