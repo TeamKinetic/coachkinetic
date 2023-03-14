@@ -136,7 +136,18 @@
     <div class="card-title">
         <p>Session Details </p>
     </div>
+
+    <div>
+        <p>individual slot</p>
+     <button (click)="toggleIndividualSession()">Individual slots</button>
+     <button (click)="toggleRepeatingSession()">Repeating session</button>
+    </div>
     <div class="card-content">
+        <app-individual-session></app-individual-session>
+
+    <ng-container *ngIf="showRepeatingSession">
+        <app-repeating-session></app-repeating-session>
+    </ng-container> 
 
     </div>
 </section>

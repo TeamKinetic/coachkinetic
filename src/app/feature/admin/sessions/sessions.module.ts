@@ -12,6 +12,8 @@ import { CheckOffSessionsComponent } from './check-off-sessions/check-off-sessio
 import { CoachScheduleComponent } from './coach-schedule/coach-schedule.component';
 import { EndingBookingsComponent } from './ending-bookings/ending-bookings.component';
 import { SearchSessionsComponent } from './search-sessions/search-sessions.component';
+import { IndividualSessionComponent } from './create-booking/individual-session/individual-session.component';
+import { RepeatingSessionComponent } from './create-booking/repeating-session/repeating-session.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { SearchSessionsComponent } from './search-sessions/search-sessions.compo
     CheckOffSessionsComponent,
     CoachScheduleComponent,
     EndingBookingsComponent,
-    SearchSessionsComponent
+    SearchSessionsComponent,
+    IndividualSessionComponent,
+    RepeatingSessionComponent
   ],
   imports: [
     CommonModule,

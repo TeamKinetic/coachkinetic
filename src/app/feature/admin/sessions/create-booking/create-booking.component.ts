@@ -7,9 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CreateBookingComponent implements OnInit {
 
-  constructor() { }
+  showIndividualSession: boolean=true;
+  showRepeatingSession: boolean=true;
+
+
+constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toggleIndividualSession(){
+ this.showIndividualSession = !this.showIndividualSession;
+  }
+
+  toggleRepeatingSession(){
+    this.showRepeatingSession = !this.showRepeatingSession;
   }
 
 }
