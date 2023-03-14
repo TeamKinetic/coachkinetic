@@ -25,6 +25,7 @@ import { AdminHomeIndexComponent } from './admin-home-index/admin-home-index.com
   ],
   imports: [
     CommonModule,
+
     AdminRoutingModule,
     AngularMaterialModule,
     SessionsModule,

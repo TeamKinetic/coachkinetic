@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FullCalendarModule } from '@fullcalendar/angular';
 
 import { SessionsRoutingModule } from './sessions-routing.module';
 import { AdminSharedModule } from '../shared/admin-shared.module';
@@ -30,6 +31,8 @@ import { RepeatingSessionComponent } from './create-booking/repeating-session/re
   ],
   imports: [
     CommonModule,
+    FullCalendarModule, // register FullCalendar with your app
+
     SessionsRoutingModule,
     AdminSharedModule,
     AngularMaterialModule

@@ -1,0 +1,13 @@
+.content-details{
+    display:flex;
+    width:500px;
+    overflow: hidden;
+    background-color: rgb(69, 123, 157);
+    border-radius: 4px;
+    padding:1.5px;
+}
+.content-details a{
+    text-decoration: none;
+    color:white;
+
+}
