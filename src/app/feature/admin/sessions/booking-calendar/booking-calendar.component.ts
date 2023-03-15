@@ -19,7 +19,7 @@ plugins: [dayGridPlugin, interactionPlugin],
 
 initialView: 'dayGridMonth',
 
-weekends: false, // initial value
+weekends: true, // initial value
 
     
 events: [

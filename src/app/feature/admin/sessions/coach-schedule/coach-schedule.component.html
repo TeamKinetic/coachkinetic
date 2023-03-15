@@ -1,1 +1,26 @@
 <p class="text-page">Coach-Schedule</p>
+
+<mat-card class="container mat-elevation-z4">
+
+<div>
+    <!-- <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Choose a date</mat-label>
+        <input matInput [matDatepicker]="picker">
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle matSuffix [for]="picker">
+          <mat-icon matDatepickerToggleIcon>keyboard_arrow_down</mat-icon>
+        </mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field> -->
+
+</div>
+
+
+<daypilot-scheduler 
+[config]="config"
+[events]="events"
+>
+
+</daypilot-scheduler>
+
+</mat-card>

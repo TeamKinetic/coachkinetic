@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FullCalendarModule } from '@fullcalendar/angular'
+import { DayPilotModule } from 'daypilot-pro-angular';
 
 import { RouterModule } from '@angular/router';
 import { SessionsRoutingModule } from './sessions-routing.module';
@@ -29,11 +30,13 @@ import { RepeatingSessionComponent } from './create-booking/repeating-session/re
     EndingBookingsComponent,
     SearchSessionsComponent,
     IndividualSessionComponent,
-    RepeatingSessionComponent
+    RepeatingSessionComponent,
   ],
   imports: [
     CommonModule,
     FullCalendarModule, // register FullCalendar with your app
+    DayPilotModule,
+    
     RouterModule,
     SessionsRoutingModule,
     AdminSharedModule,
